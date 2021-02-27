@@ -30,3 +30,19 @@ let resultado , opereacion;
 
 operacion = (operacionAritmetica + 3)*5+(4*8)/1; //respuesta 72
 console.log(operacion);
+
+//funciones
+
+function numerosts (cs ,cd){
+
+    return cs + cd
+}
+console.log(numerosts(4,4))
+
+//introducir elementos por medio de una variable a una funcion
+
+const integra = mysnumeros(8,6);
+function mysnumeros(p,q){
+    return p/q
+}
+console.log(integra)
