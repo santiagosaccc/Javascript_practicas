@@ -13,6 +13,18 @@ const nombre = "sara";
  const myArray =[ "sara","santiago","camila","papa" ];
  console.log(myArray);
 
- //crear un array
+ //crear un array con los valores qque yo le indique 
 const newArray = new Array(1,2,3,4,5,6);
 console.log(newArray)
+// objetos y entrada en ellos
+const miObjeto ={
+    nombre:"santiago", edad:19, pais:"colombia"
+}
+console.log(miObjeto)
+//movernos en los objetos
+console.log(miObjeto.edad)//mostrara la edad ya que lo estamos iterando
+// creacion de calculadora basica
+// operaciones aritmeticas
+const ingrese = prompt("ingres un numero a operar")
+const ingresnun2 = prompt("ingrese el segundo numero");
+let operaciones , suma ,resta , multiplicacion , divicion;
