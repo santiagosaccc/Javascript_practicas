@@ -23,8 +23,10 @@ const miObjeto ={
 console.log(miObjeto)
 //movernos en los objetos
 console.log(miObjeto.edad)//mostrara la edad ya que lo estamos iterando
-// creacion de calculadora basica
+
 // operaciones aritmeticas
-const ingrese = prompt("ingres un numero a operar")
-const ingresnun2 = prompt("ingrese el segundo numero");
-let operaciones , suma ,resta , multiplicacion , divicion;
+const operacionAritmetica = 5;
+let resultado , opereacion;
+
+operacion = (operacionAritmetica + 3)*5+(4*8)/1; //respuesta 72
+console.log(operacion);
