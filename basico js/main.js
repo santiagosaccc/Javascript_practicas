@@ -45,4 +45,15 @@ const integra = mysnumeros(8,6);
 function mysnumeros(p,q){
     return p/q
 }
-console.log(integra)
+//recordemos que el return y nos retorna el valor 
+console.log(integra)/// estamos guardando lavariable 
+
+// numeros
+
+let nul = 32;
+console.log(nul)
+// return numeros
+// para cacceder a los elemntos de una matriz usaremos 
+const mimatriz=["numero1","numero2","numero3","numero4"];
+
+console.log(mostrarmatriz[1]);
