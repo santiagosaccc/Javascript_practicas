@@ -23,6 +23,22 @@ let newFuction = () =>{//por medio de esto podemos ver la diferencia de argument
     console.log(800)
 }
 newFuction()
+//pramentros
+
+const parametrosNew = (numeroz) =>{
+
+    console.log(numeroz)
+}
+parametrosNew(5)/// aca me retorna el parametro que le estoy indicando 
+
+///tipificacion cuando tenemos una funcion con return tenemos que poner el valor en un resultado
+const RetornandoLos = (nub,ned) =>{
+
+    return ( nub + ned)
+}
+const resultado = RetornandoLos(40,30)
+console.log(resultado)// aca estamos llmando a la variable a la cual le aviamos guardado el valor de los parametros de mi funcion 
+
 
 
 
