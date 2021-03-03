@@ -53,4 +53,29 @@ let mynombre = (nombre) => {
 let nombres= mynombre('santiago')
 console.log(nombres)
 
+let saram = "sara es mi hermana";
+console.log(saram);
+
+const santiagosacc = sun => ('mi nombres es santiago'+ sun);
+const resulver = santiagosacc("sannn");
+console.log(resulver);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
