@@ -39,6 +39,10 @@ const RetornandoLos = (nub,ned) =>{
 const resultado = RetornandoLos(40,30)
 console.log(resultado)// aca estamos llmando a la variable a la cual le aviamos guardado el valor de los parametros de mi funcion 
 
+//como usar la funcion de flecha sin un return
+let funcionsin =(b2,b4) => (b2 = b4)
+const total = funcionsin(88,77)
+console.log(total)
 
 
 
