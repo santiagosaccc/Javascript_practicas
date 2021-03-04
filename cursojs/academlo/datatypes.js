@@ -16,3 +16,11 @@ const convert = Number(newvalor);
 console.log(convert);
 ///en este punto me esta entregando el valor como un numero 
 
+
+//valores tru o false
+
+const age9 = 20
+//vamos a ver como se muestra el valor boolean
+
+const lessThan18 = age9 < 38;
+console.log(typeof lessThan18);
